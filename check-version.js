@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { getLatestSpec } from '@cfnboost/spec';
+import { getLatestSpec } from '@squareball/cfnspec';
 
 const { awsResourceSpecificationVersion: pkgVer } = JSON.parse(
   readFileSync('package.json'),

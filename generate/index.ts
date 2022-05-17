@@ -1,4 +1,4 @@
-import { getLatestSpec } from '@cfnboost/spec';
+import { getLatestSpec } from '@squareball/cfnspec';
 import createDebug from 'debug';
 import { promises as fs } from 'fs';
 import path, { dirname } from 'path';
@@ -13,7 +13,7 @@ generate().then(
   () => {
     process.exit(0);
   },
-  err => {
+  (err) => {
     console.error(`fatal error`, err);
     process.exit(1);
   },

@@ -1,4 +1,4 @@
-import { PrimitiveType } from '@cfnboost/spec';
+import { PrimitiveType } from '@squareball/cfnspec';
 import createDebug from 'debug';
 import { convertName } from './convertName.js';
 import { primitive } from './primitive.js';
