@@ -1,6 +1,6 @@
 {
   "name": "@squareball/cfntypes",
-  "version": "0.40.3",
+  "version": "0.40.4",
   "private": false,
   "publishConfig": {
     "access": "public"
